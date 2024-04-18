@@ -16,7 +16,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Validators\\": "src/"
+            "Src\\": "core/Src/",
+            "Validators\\": "src/",
+            "Validator\\": "src/Validator"
         }
-    }
+    },
+    "files": [
+        "src/helpers.php"
+    ]
 }

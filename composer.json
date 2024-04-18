@@ -11,13 +11,11 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "^7.4 | ^8.0"
+        "php": "^7.4 | ^8.0",
+        "illuminate/database": "9.x-dev",
     },
     "autoload": {
         "psr-4": {
-            "Src\\Validator\\": "core/Src/Validator/",
-            "Illuminate\\Database\\Capsule\\": "vendor/Illuminate/Database/Capsule/",
-            "Src\\": "core/Src/",
             "Validators\\": "src/"
         }
     }
